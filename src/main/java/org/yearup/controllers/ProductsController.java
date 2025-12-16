@@ -88,7 +88,8 @@ public class ProductsController {
     {
         try
         {
-            productDao.create(product);
+            // create was implemented
+            productDao.update(id,product);
         }
         catch(Exception ex)
         {
