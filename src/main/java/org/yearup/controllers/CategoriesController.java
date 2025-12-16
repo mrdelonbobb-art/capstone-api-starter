@@ -13,8 +13,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/categories")
 @CrossOrigin
-public class CategoriesController
-{
+public class CategoriesController {
     private final CategoryDao categoryDao;
     private final ProductDao productDao;
 
@@ -28,8 +27,7 @@ public class CategoriesController
 
     // GET all http://localhost:8080/categories
     @GetMapping
-    public List<Category> getAll()
-    {
+    public List<Category> getAll() {
         return categoryDao.getAllCategories();
     }
 
