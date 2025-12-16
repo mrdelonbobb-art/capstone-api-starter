@@ -227,3 +227,4 @@ public class MySqlProductDao extends MySqlDaoBase implements ProductDao
         return new Product(productId, name, price, categoryId, description, subCategory, stock, isFeatured, imageUrl);
     }
 }
+//
