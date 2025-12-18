@@ -3,12 +3,13 @@
 This repository contains backend updates and bug fixes made during development of the EasyShop application.
 ---
 ✅ Changes Made
-bug 1 Products Controller
+
+Bug 1 Products Controller
 - Replaced **create** logic with **update** logic where appropriate.
 - Ensures existing products are modified instead of unintentionally creating duplicates.
 ---
 
-bug 2 🗄️ MySQLProductDao
+Bug 2 🗄️ MySQLProductDao
 Fixed SQL issues in product filtering logic:
 - Removed **duplicate `minPrice` condition**
 - Corrected SQL comparison:
